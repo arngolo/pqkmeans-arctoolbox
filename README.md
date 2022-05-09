@@ -1,12 +1,12 @@
 # pqkmeans-arctoolbox
 
-##Setup arcgis pro conda environment:
+## Setup arcgis pro conda environment:
 In ArcGIS Pro, go to `Project > Python > Manage Environments` and select the default conda environment (arcgispro-py3). Click the box clone and name the new environment as you wish.
  
 ArcGIS provides a command prompt called **Python Command Prompt (search from windows search bar) that gives access to its conda environment (conda env list to see them and `conda activate <name_of_env>` to activate an environment).
 **Note**: You can’t modify the original conda environment, only its clones. You can conda or pip install additional libraries but some of them such as pqkmeans will not show up if you try to list them from arcGIS pro.
  
-###Dependencies:
+### Dependencies:
 Rasterio and pqkmeans as main libraries.
 Other dependencies:  matplotlib, scikit-learn, GDAL.
 
@@ -15,7 +15,7 @@ Other dependencies:  matplotlib, scikit-learn, GDAL.
 All dependencies are installed by binary files located in Binaries folder repository and are listed in the requirements.txt file:
 pip -r install requirements.txt
  
-##Using the tool:
+## Using the tool:
  
 After cloning the repository, in arcgis pro go to `insert > toolbox > Add Toolbox` and add the toolbox.
 
