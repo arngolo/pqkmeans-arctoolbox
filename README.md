@@ -22,13 +22,21 @@ After cloning the repository, in arcgis pro go to `insert > toolbox > Add Toolbo
 You can start using the tool by opening the tool pqkmeans inside the toolbox and setting the parameters:
 
 **Input_raster:** A D dimensional image of tif format.
+
 **output_raster:** A 1D dimensional image of tif format.
+
 **k:** as you wish for the number of clusters
+
 **num_of_subdim (M):**  The  number of subdimensions (from the input nD image) for quantization. The higher the subdimension the slower the algorithm.
+
 **Ks:**  represents the maximum digital number. By default it is 256 that corresponds to 8 bits.
+
 **sample_size:** The number of pixels you select for quantization. (Good results where achieved with 9.5% of the total number of pixels (Ngolo and Watanabe, 2022)).
+
 **proj:** is the coordinate reference system (utm by default). For EPSG system you have to add the EPSG value.
+
 **ellps:** The ellipsoid of the input image to be preserved inthe output image.
+
 **datum:** The datum of the input image to be preserved inthe output image.
 
 Click `Run` to run the tool. You can see the messages of the tool in `Geoprocessing > View Details`.
