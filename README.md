@@ -47,7 +47,7 @@ Click `Run` to run the tool. You can see the messages of the tool in `Geoprocess
 Matsui, Y., K. Ogaki, T. Yamasaki, and K. Aizawa 2017.“PQk-means: Billion-scale Clustering for Product-quantized Codes.” Paper presented at the proceedings of the ACM International Conference on Multimedia, Mountain View, California, USA, 23–27 October 1725-1733. https://arxiv.org/abs/1709.03708v1
  
 Ngolo, A.M.E and T. Watanabe 2022. “Integrating geographical information systems, remote sensing, and machine learning techniques to monitor urban expansion: an application to Luanda, Angola.” Geo-spatial Information
-Science x (x): x–x. https://doi.org/10.1080/10095020.2022.2066574.
+Science 26 (3): 446-464. https://doi.org/10.1080/10095020.2022.2066574.
 
 # Licence
 The source code is licensed under MIT License.
