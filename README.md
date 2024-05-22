@@ -7,12 +7,12 @@ ArcGIS provides a command prompt called **Python Command Prompt (search from win
 **Note**: You can’t modify the original conda environment, only its clones. You can conda or pip install additional libraries but some of them such as pqkmeans will not show up if you try to list them from arcGIS pro.
  
 ### Dependencies:
-Rasterio and pqkmeans as main libraries.
-Other dependencies:  matplotlib, scikit-learn, GDAL.
+ENV: `ArcGIS Pro 3.3 with python 3.11`  
+- Rasterio  
+- pqkmeans  
 
-**Note:** Microsoft Build tools (2015) is also required for pqkmeans.
+**Note:** Microsoft Build tools (2015) or Visual Studio Comunity 2022 is also required to compile pqkmeans.
 
-All dependencies are installed by binary files located in Binaries folder repository and are listed in the requirements.txt file:
 pip -r install requirements.txt
  
 ## Using the tool:
@@ -32,12 +32,6 @@ You can start using the tool by opening the tool pqkmeans inside the toolbox and
 - **Ks:**  represents the maximum digital number. By default it is 256 that corresponds to 8 bits.
 
 - **sample_size:** The number of pixels you select for quantization. (Good results where achieved with 9.5% of the total number of pixels (Ngolo and Watanabe, 2022)).
-
-- **proj:** is the coordinate reference system (utm by default). For EPSG system you have to add the EPSG value.
-
-- **ellps:** The ellipsoid of the input image to be preserved inthe output image.
-
-- **datum:** The datum of the input image to be preserved inthe output image.
 
 Click `Run` to run the tool. You can see the messages of the tool in `Geoprocessing > View Details`.
 <kbd> <img src="params.png" /> </kbd>
